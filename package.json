@@ -1,0 +1,36 @@
+{
+	"name": "iddb",
+	"version": "0.0.1",
+	"description": "A collective authentication pool using OpenID for the interfacing API",
+	"author": "makesites",
+	"contributors": [
+		{
+			"name": "Makis Tracend",
+			"email": "makis@makesit.es"
+		}
+	],
+	"homepage": "http://makesites.org",
+	"keywords": [
+		"node", "password", "authentication", "openid", "agnostic"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/makesites/iddb"
+	},
+	"bugs": {
+		"url": "https://github.com/makesites/iddb/issues"
+	},
+	"licenses": [
+		{
+			"type": "MIT License",
+			"url": "http://www.makesites.org/licenses/MIT"
+		}
+	],
+	"main": "./index.js",
+	"engines": {
+		"node": ">=0.8.x"
+	},
+	"dependencies": {
+		"openid-connect": "*"
+	}
+}
